@@ -1,11 +1,31 @@
-# Python-generated files
+# --- uv & Virtual Environments ---
+# uv manages dependencies inside .venv; it should never be committed
+.venv/
+
+# --- Python Build Artifacts & Caches ---
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
 build/
 dist/
-wheels/
-*.egg-info
 
-# Virtual environments
-.venv
-.json
+# --- Environment Variables & Secrets ---
+# Keep your local credentials out of source control
+.env
+.env.*
+!.env.example
+
+# --- IDEs & System Files ---
+.vscode/
+.idea/
+.DS_Store
+
+
+.mcp_tokens.json
+mcp_tokens.json
+
+not_in_use_1.py
+not_in_use_2.py

@@ -69,7 +69,7 @@ fastapi-mcp-bridge/
         └── key_tools.py    # Enterprise API key asset management & logout operations
 ```
 
-## 📝 Core MCP Integration Notes(only for developer) (Read Before Modifying)
+## 📝 Core MCP Integration Notes(only for developer) (Read Before Modifying for refernece only)
 
 Keep these three architectural quirks in mind when maintaining or scaling this decoupled project:
 
